@@ -11,6 +11,7 @@
 		F0991E67193ECD5D00984CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0991E66193ECD5D00984CB4 /* main.m */; };
 		F0991E6B193ECD5D00984CB4 /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0991E6A193ECD5D00984CB4 /* BMITime.1 */; };
 		F0991E73193ECD9800984CB4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0991E72193ECD9800984CB4 /* Person.m */; };
+		F0991E76193EE8FC00984CB4 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = F0991E75193EE8FC00984CB4 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		F0991E6A193ECD5D00984CB4 /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
 		F0991E71193ECD9800984CB4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F0991E72193ECD9800984CB4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F0991E74193EE8FC00984CB4 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		F0991E75193EE8FC00984CB4 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		F0991E57193ECD5D00984CB4 = {
 			isa = PBXGroup;
 			children = (
+				F0991E74193EE8FC00984CB4 /* Employee.h */,
+				F0991E75193EE8FC00984CB4 /* Employee.m */,
 				F0991E71193ECD9800984CB4 /* Person.h */,
 				F0991E72193ECD9800984CB4 /* Person.m */,
 				F0991E65193ECD5D00984CB4 /* BMITime */,
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0991E76193EE8FC00984CB4 /* Employee.m in Sources */,
 				F0991E73193ECD9800984CB4 /* Person.m in Sources */,
 				F0991E67193ECD5D00984CB4 /* main.m in Sources */,
 			);

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
+#import "Employee.h"
 
 int main(int argc, const char * argv[])
 {
@@ -15,7 +15,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
        
         //Create an instance of Person
-        Person *p = [[Person alloc]init];
+        Person *p = [[Employee alloc]init];
         
         //Give the instance variables interesting values
         [p setWeightInKilos:45];
