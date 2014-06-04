@@ -10,14 +10,17 @@
 
 @interface Person : NSObject
 {
-    
+    //Class Person has two instance variables
     float heightInMeters;
     float weightInKilos;
     
 }
 
+//To set the instance variables, we'll use these methods
 -(void)setHeightInMeters:(float)h;
 -(void)setWeightInKilos:(int)w;
+
+//This method is to calculate the Body Mass Index
 -(float)bodyMassIndex;
 
 @end
