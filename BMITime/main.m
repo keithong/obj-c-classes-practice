@@ -15,18 +15,20 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
        
         //Create an instance of Person
-        Person *p = [[Employee alloc]init];
+        Employee *person = [[Employee alloc]init];
         
         //Give the instance variables interesting values
-        [p setWeightInKilos:45];
-        [p setHeightInMeters:1.72];
+        [person setWeightInKilos:45];
+        [person setHeightInMeters:1.72];
+        
+        //Set the employee ID
+        [person setEmployeeID:19];
         
         //Call the bodyMassIndex method
-        float bmi = [p bodyMassIndex];
+        float bmi = [person bodyMassIndex];
         
-        //Use the getter methods from Person.h to main.m
-        NSLog(@"The person with the height %.2f meters and weight %d kilos has a BMI of %.2f"
-              , [p heightInMeters], [p weightInKilos], bmi);
+        //Use the employee ID to identify a specific employee
+        NSLog(@"Employee %d has a BMI of %.2f",[person employeeID], bmi);
         
     }
     return 0;
