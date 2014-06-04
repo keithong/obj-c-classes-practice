@@ -58,9 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				F0991E74193EE8FC00984CB4 /* Employee.h */,
+				F0991E75193EE8FC00984CB4 /* Employee.m */,
 				F0991E77193EECFF00984CB4 /* Asset.h */,
 				F0991E78193EECFF00984CB4 /* Asset.m */,
-				F0991E75193EE8FC00984CB4 /* Employee.m */,
 				F0991E71193ECD9800984CB4 /* Person.h */,
 				F0991E72193ECD9800984CB4 /* Person.m */,
 				F0991E65193ECD5D00984CB4 /* BMITime */,

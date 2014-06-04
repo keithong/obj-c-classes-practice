@@ -24,10 +24,10 @@
 }
 -(unsigned int)valueOfAssets{
 
-        //Sum up the resale value of the assets
+    //Sum up the resale value of the assets
     unsigned int sum = 0;
     for (Asset *a in assets) {
-        sum+= [a resaleValue];
+        sum += [a resaleValue];
     }
     return sum;
 }
