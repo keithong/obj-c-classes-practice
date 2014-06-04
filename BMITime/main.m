@@ -23,7 +23,10 @@ int main(int argc, const char * argv[])
         
         //Call the bodyMassIndex method
         float bmi = [p bodyMassIndex];
-        NSLog(@"This person's BMI is %.2f", bmi);
+        
+        //Use the getter methods in main.m
+        NSLog(@"The person with the height %.2f meters and weight %d kilos has a BMI of %.2f"
+              , [p heightInMeters], [p weightInKilos], bmi);
         
     }
     return 0;

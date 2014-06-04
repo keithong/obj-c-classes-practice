@@ -9,6 +9,15 @@
 #import "Person.h"
 
 @implementation Person
+
+-(float)heightInMeters{             // -------------------------
+    return heightInMeters;          //
+}                                   //
+                                    // Implement getter methods in Person.m
+-(int)weightInKilos{                //
+    return weightInKilos;           //
+}                                   // --------------------------
+
 -(void)setHeightInMeters:(float)h{
     heightInMeters = h;
 }

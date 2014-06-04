@@ -15,6 +15,9 @@
     float weightInKilos;
     
 }
+//Create our getter methods
+-(float)heightInMeters;
+-(int)weightInKilos;
 
 //To set the instance variables, we'll use these methods
 -(void)setHeightInMeters:(float)h;
