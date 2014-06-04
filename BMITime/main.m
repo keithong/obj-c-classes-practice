@@ -7,14 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+       
+        Person *p = [[Person alloc]init];
         
-        // insert code here...
-        NSLog(@"This is a practice for obective-c classes!");
+        [p setWeightInKilos:45];
+        [p setHeightInMeters:1.72];
+        
+        NSLog(@"This person's BMI is %f", [p bodyMassIndex]);
         
     }
     return 0;
