@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
         //Call the bodyMassIndex method
         float bmi = [p bodyMassIndex];
         
-        //Use the getter methods in main.m
+        //Use the getter methods from Person.h to main.m
         NSLog(@"The person with the height %.2f meters and weight %d kilos has a BMI of %.2f"
               , [p heightInMeters], [p weightInKilos], bmi);
         
