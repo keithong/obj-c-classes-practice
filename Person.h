@@ -12,16 +12,12 @@
 {
     //Class Person has two instance variables
     float heightInMeters;
-    float weightInKilos;
+    int weightInKilos;
     
 }
-//Create our getter methods
--(float)heightInMeters;
--(int)weightInKilos;
-
-//To set the instance variables, we'll use these methods
--(void)setHeightInMeters:(float)h;
--(void)setWeightInKilos:(int)w;
+//Replace the setter and getter methods with property construct
+@property float heightInMeters;
+@property int weightInKilos;
 
 //This method is to calculate the Body Mass Index
 -(float)bodyMassIndex;

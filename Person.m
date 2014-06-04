@@ -10,21 +10,8 @@
 
 @implementation Person
 
--(float)heightInMeters{             // -------------------------
-    return heightInMeters;          //
-}                                   //
-                                    // Implement getter methods in Person.m
--(int)weightInKilos{                //
-    return weightInKilos;           //
-}                                   // --------------------------
-
--(void)setHeightInMeters:(float)h{
-    heightInMeters = h;
-}
-
--(void)setWeightInKilos:(int)w{
-    weightInKilos = w;
-}
+//Replace accessors with the @synthesize construct
+@synthesize heightInMeters, weightInKilos;
 
 -(float)bodyMassIndex{
     return weightInKilos / (heightInMeters * heightInMeters);
