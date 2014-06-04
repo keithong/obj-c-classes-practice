@@ -70,9 +70,19 @@ int main(int argc, const char * argv[])
         
         NSLog(@"Employees: %@", employees);
         NSLog(@"Giving up ownership of one employee");
+        
         [employees removeObjectAtIndex:5];
         NSLog(@"allAssets: %@", allAssets);
+        
+        //Instance of NSPredicate
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
+        NSArray *toBeReclaimed = [allAssets filteredArrayUsingPredicate:predicate];
+        
+        NSLog(@"toBeReclaimed: %@", toBeReclaimed);
+        
+        
         NSLog(@"Giving up ownership of array");
+        toBeReclaimed = nil;
         allAssets = nil;
         employees = nil;
         
