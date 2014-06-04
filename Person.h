@@ -9,5 +9,15 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
+{
+    
+    float heightInMeters;
+    float weightInKilos;
+    
+}
+
+-(void)setHeightInMeters:(float)h;
+-(void)setWeightInKilos:(int)w;
+-(float)bodyMassIndex;
 
 @end
