@@ -96,7 +96,6 @@ int main(int argc, const char * argv[])
         //Use the employee ID to identify a specific employee
         NSLog(@"Employee %d has a BMI of %.2f",[person employeeID], bmi); 
        
-       
        */
         
     }
